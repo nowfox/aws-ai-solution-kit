@@ -1,27 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-ocr-zh/</loc>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/</loc>
          <lastmod>2022-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-porn-zh/</loc>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/api-explorer-zh/</loc>
          <lastmod>2022-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-seg-zh/</loc>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/changelog-zh/</loc>
          <lastmod>2022-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-sr-zh/</loc>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/cost-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-car-license-plate-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-custom-ocr-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-face-comparison-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-face-detection-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-general-ocr-traditional-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-general-ocr-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-human-attribute-recognition-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-human-image-segmentation-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-image-super-resolution-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-nudity-detection-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-object-recognition-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deploy-text-similarity-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/deployment-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/design-zh/</loc>
          <lastmod>2022-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/faq-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/github-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/include-deploy-code-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/include-deploy-cost-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/include-deploy-description-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/include-deploy-lambda-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/include-deploy-plan-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/include-deploy-uninstall-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/include-deploy-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/region-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/resource-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/security-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/stack-zh/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.amazonaws.cn/solutions/ai-solution-kit/upgrade-zh/</loc>
          <lastmod>2022-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
