@@ -599,17 +599,30 @@
     成本预估
   </a>
   
+    <nav class="md-nav" aria-label="成本预估">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    美国东部(俄亥俄)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     快速部署
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     开始使用
   </a>
   
@@ -631,7 +644,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     代码示例
   </a>
   
@@ -650,7 +663,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     卸载部署
   </a>
   
@@ -888,17 +901,30 @@
     成本预估
   </a>
   
+    <nav class="md-nav" aria-label="成本预估">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    美国东部(俄亥俄)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     快速部署
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     开始使用
   </a>
   
@@ -920,7 +946,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     代码示例
   </a>
   
@@ -939,7 +965,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     卸载部署
   </a>
   
@@ -973,14 +999,76 @@
 本方案使用 Lambda 、 Amazon API Gateway 等无服务架构方案，用户无需担心在云中或本地管理和运行服务器或运行时。只需按实际使用量支付费用。</p>
 <p>架构图请参考 <strong><a href="../design/#基于lambda-实现">架构概览: 基于 Lambda 实现</a></strong></p>
 <h2 id="_3">成本预估</h2>
-<p>//TODO</p>
-<h2 id="_4">快速部署</h2>
+<p>处理一张图按1秒计算，Amazon SageMaker 终端节点实例开启时会一直计费，这里仅计算处理完1百万图片需要消耗时长对应的实例费用</p>
+<h3 id="_4">美国东部(俄亥俄)</h3>
+<table>
+<thead>
+<tr>
+<th>服务</th>
+<th>用量</th>
+<th>费用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amazon Lambda调用</td>
+<td>百万次</td>
+<td>$0.20</td>
+</tr>
+<tr>
+<td>Amazon Lambda运行</td>
+<td>内存4096MB，每次运行1秒</td>
+<td>$66.7</td>
+</tr>
+<tr>
+<td>Amazon API Gateway调用</td>
+<td>百万次</td>
+<td>$3.5</td>
+</tr>
+<tr>
+<td>Amazon API Gateway数据输出</td>
+<td>以每次4MB计算,$0.09/GB</td>
+<td>$360</td>
+</tr>
+<tr>
+<td>Amazon CloudWatch Logs</td>
+<td>每次10KB,$0.50/GB</td>
+<td>$0.05</td>
+</tr>
+<tr>
+<td>Amazon Elastic Container Registry存储</td>
+<td>0.5GB,每月每GB$0.1</td>
+<td>$0.05</td>
+</tr>
+<tr>
+<td>Amazon SageMaker 终端节点实例</td>
+<td>需要运行278小时，ml.inf1.xlarge $0.297/小时</td>
+<td>$82.57</td>
+</tr>
+<tr>
+<td>Amazon SageMaker 终端节点数据输入</td>
+<td>以每次1MB计算，$0.016/GB</td>
+<td>$16</td>
+</tr>
+<tr>
+<td>Amazon SageMaker 终端节点数据输出</td>
+<td>以每次4MB计算，$0.016/GB</td>
+<td>$64</td>
+</tr>
+<tr>
+<td>合计</td>
+<td></td>
+<td>$593.07</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">快速部署</h2>
 <p>您可以通过 Amazon CloudFormation 部署 <strong>图像超分辨率</strong> 功能，具体步骤请见 <a href="../deployment/"><strong>概述: 部署解决方案</strong></a>，并在<strong>参数</strong>部分确认 <strong>ImageSuperResolution</strong> 参数设置为 <em>yes</em> 。在部署完成后，在 Amazon CloudFormation 控制台上的堆栈列表里可以查看到包含 <strong>ImageSuperResolution</strong> 名称的嵌套堆栈（Nested Stack）。</p>
 <div class="admonition 信息">
 <p class="admonition-title">信息</p>
 <p>部署时间大约需要：<strong>20 分钟</strong></p>
 </div>
-<h2 id="_5">开始使用</h2>
+<h2 id="_6">开始使用</h2>
 <h3 id="url">调用 URL</h3>
 <p>您可以在 Amazon CloudFormation 的 Outputs 标签页中看到以 <strong>ImageSuperResolution</strong> 为前缀的记录的 URL。</p>
 <h3 id="rest-api">REST API接口参考</h3>
@@ -1068,7 +1156,7 @@
 }
 </code></pre>
 <!-- BEGIN INCLUDE include-deploy-code.md   -->
-<h3 id="_6">代码示例</h3>
+<h3 id="_7">代码示例</h3>
 <p><strong>cURL</strong></p>
 <pre><code class="language-bash">curl --location --request POST 'https://[API_ID].execute-api.[AWS_REGION].amazonaws.com/[STAGE]/image_super_resolution' \
 --header 'Content-Type: application/json' \
@@ -1135,7 +1223,7 @@ Response response = client.newCall(request).execute();
 <!-- END INCLUDE -->
 
 <!-- BEGIN INCLUDE include-deploy-uninstall.md   -->
-<h2 id="_7">卸载部署</h2>
+<h2 id="_8">卸载部署</h2>
 <p>您可以通过 Amazon CloudFormation 卸载 <strong>图像超分辨率</strong> 功能，具体步骤请见 <a href="../deployment/##amazon-cloudformation_1"><strong>部署解决方案: 更新 Amazon CloudFormation 堆栈</strong></a>，并在<strong>参数</strong>部分确认 <strong>ImageSuperResolution</strong> 参数设置为 <em>no</em> 。</p>
 <div class="admonition 信息">
 <p class="admonition-title">信息</p>
